@@ -63,3 +63,8 @@ ansible all -m ping
 cmd to deploy jupiter site
 
 ansible-playbook deploy-jupiter-website.yml
+
+
+create alb for ansible server
+attached route-53 to your alb
+attached cm to alb for ssl connection secure
